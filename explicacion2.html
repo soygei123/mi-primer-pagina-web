@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2 - Construye Aplicaciones Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header class="header-container">
+        <div class="header-text">
+            <h1 class="main-title">Por que me gusta...</h1>
+            <h2 class="subtitle">Construye aplicaciones web</h2>
+        </div>
+        
+        <div class="header-image">
+
+            <img src="computadora.jpg" alt="Segunda imagen de apoyo">
+        </div>
+    </header>
+
+    <main>
+
+        <section class="audio-content">
+            <h3>Explicación en Audio</h3>
+            
+            <div class="audio-container">
+
+                <audio controls>
+                    <source src="audio-.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </section>
+
+
+        <section class="form-content">
+            <h3>ACERCA DE LA MATERIA</h3>
+            <p>rellena este formulario para saber mas como te va a ti en la materia</p>
+            
+            <form action="https://formspree.io/f/xbgdoqzv"
+      method="POST"
+      class="custom-form">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+                </div>
+                
+                <div class="form-group">
+                    <label for="materia">¿te gusta la materia?</label>
+                    <select id="materia" name="materia">
+                        <option value="si">Si</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="comentarios">¿que opinas sobre la materia?:</label>
+                    <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tu opinión aquí..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">Enviar Comentarios</button>
+            </form>
+        </section>
+
+        <!-- Botón para regresar -->
+        <section class="links-content">
+            <h3>Navegación</h3>
+            <ul class="enlaces-lista">
+                <li><a href="index.html">Regresar a la página principal</a></li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
